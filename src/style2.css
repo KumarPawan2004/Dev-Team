@@ -1,0 +1,72 @@
+#main-container{
+   width: fit-content;
+   background: linear-gradient(to bottom, #000 50%,rgb(162, 33, 162) 50%);
+   padding: 50px;
+   display: grid;
+   grid-template-columns: 400px 400px;
+   grid-template-rows: 500px ;
+   column-gap: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+}
+.form{
+    background-color: #fff;
+    border-radius: 15px;
+    
+}
+h1{
+    text-align: center;
+    font-size: px;
+}
+.rec1{
+    display: flex;
+    border: 2px solid rgb(227, 227, 227);
+    width: 310px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.rec1 > div{
+    text-align: center;
+    width: 50%;
+    padding: 12px;
+    border-radius: 15px;
+}
+.for{
+    background-color: #171c9a;
+    color: white; 
+       
+}
+input{
+    text-align: left;
+    width: 290px;
+    height: 38px;
+    margin-top: 35px;
+    margin-left: 45px;
+    border-radius: 15px;
+    border: 2px solid rgb(227, 227, 227);
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+p{
+    margin-left: 45px;
+    color: rgb(7, 156, 255);
+    font-size: larger;
+    
+}
+#spc{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0;
+}
+button{
+    width: 320px;
+    margin-left: 45px;
+    color: white;
+    font-size: larger;
+    padding: 15px;
+    background-color: #171c9a;
+    border: 0;
+    border-radius: 15px;
+    margin-top: 20px;
+}
