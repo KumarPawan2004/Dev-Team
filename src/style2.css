@@ -59,6 +59,12 @@ p{
     margin-top: 30px;
     margin-left: 0;
 }
+p > span{
+    color: black;
+}
+#button2{
+    margin-top: 40px;
+}
 button{
     width: 320px;
     margin-left: 45px;
