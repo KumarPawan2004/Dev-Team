@@ -7,45 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main-container">
-
-
-        <div id="login" class="form">
+    <div id="main">
+        <div class="same">
             <h1>Login Form</h1>
-
-            <div class="rec1">
-                <div class="for"><b>Login</b></div>
-                <div><b>Signup</b></div>
+            <div class="nav">
+                <div class="log">Login</div>
+                <div><span><b>Signup</b></span></div>
             </div>
-
-            <input type="text" placeholder="Email Address">
-            <input type="text" placeholder="Password">
-            <p>Forgot Password ?</p>
-
-            <button>Login</button>
-
-            <p id="spc"><span style="color: black;">Not a member ?</span> Signup now </p>
+            <input type="email" id="email" placeholder="Email address">
+            <input type="password" id="password" placeholder="Password">
+            <div class="for"><a href=".">Forgot password?</a></div>
+            <button type="submit" onclick="handleSubmit()">Login</button>
+            <p>Not a member?<a href="..">     Signup now</a></p>
 
         </div>
-
-
-        <div id="signup" class="form">
+        <div class="same">
             <h1>Signup Form</h1>
-
-            <div class="rec1">
-                <div><b>Login</b></div>
-                <div class="for"><b>Signup</b></div>
+            <div class="nav">
+                <div><span><b>Login</b></span></div>
+                <div class="sign">Signup</div>
             </div>
-
-            <input type="text" placeholder="Email Address">
-            <input type="text" placeholder="Password">
-            <input type="text" placeholder="Confirm Password">
-
-            <button style="margin-top: 40px;">Signup</button>
+            <input type="email" placeholder="Email address">
+            <input type="password" placeholder="Password">
+            <input type="password" id="cnf" placeholder="Confirm password">
+            <button type="submit" onclick="handleSubmit()">Signup</button>
 
         </div>
-
     </div>
-
+    <script src="index.js"></script>
+    
 </body>
 </html>
